@@ -244,6 +244,7 @@ const SCENARIOS = {
   director: "Кто генеральный директор компании СамИздат Инкорпорейтед?",
   gpu: "Кто отвечает за закупку GPU?",
   company: "Что ты знаешь о моей компании?",
+  products: "Какие продукты есть у компании?",
 };
 
 function AssistantModal({ initialQuery, onClose, onToast }: { initialQuery: string | null; onClose: () => void; onToast: (m: string) => void; }) {
